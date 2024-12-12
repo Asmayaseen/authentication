@@ -20,8 +20,7 @@ export default async function Home() {
             Welcome, user!
           </CardTitle>
           <p className="text-muted-foreground">
-            you are learning something valuable from this project, please like
-            and subscribe to my projects.
+            If you are learning something valuable from this project, please like to my project.
           </p>
         </CardContent>
       </Card>

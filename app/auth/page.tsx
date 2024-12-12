@@ -17,7 +17,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
-import { signInSchema } from "./lib/zod";
+import { signInSchema } from "@/lib/zod";
 import LoadingButton from "@/components/loading-button";
 import {
     handleCredentialsSignin,
@@ -44,8 +44,7 @@ export default function SignIn() {
                 setGlobalError(result.message);
             }
         } catch (error) {
-            console.error("An unexpected error occurred: ", error);
-            setGlobalError("An unexpected error occurred. Please try again.");
+            console.log("An unexpected error occurred. Please try again.");
         }
     };
 

@@ -25,7 +25,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
                 user = {
                     id: '1',
                     name: 'Asma Khan',
-                    email: 'example@gmail.com',
+                    email: 'asmayaseen9960@gmail.com',
                     role: "admin"
                 }
 
